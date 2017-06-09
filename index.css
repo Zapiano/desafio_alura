@@ -1,28 +1,28 @@
 /*Basic Elements*/
 
 * {
-    font-family: Arial;
+    font-family: sans-serif;
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 600;
   color: #0d0d0d;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 20px;
+  margin-bottom: 39px;
+  font-size: 28px;
 }
 
 h2 {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 600;
-  color: #3c3c3c;
+  color: #2f2f2f;
 }
 
 li {
-  font-size: 10px;
-  color: #3c3c3c;
-  line-height: 18px;
+  font-size: 12px;
+  color: #7e7e7e;
+  line-height: 20px;
 }
 
 ul {
@@ -33,7 +33,7 @@ ul {
 ul li:before {
    content: "•";
    font-size: 120%;
-   padding-right: 12px;
+   padding-right: 15px;
 }
 
 
@@ -41,27 +41,27 @@ ul li:before {
 /* Core Elements */
 
 .container {
-  width: 431px;
+  width: 592px;
   background-color: #f6fafb;
-  padding-bottom: 17px;
-  padding-top: 17px;
+  padding-bottom: 22px;
+  padding-top: 22px;
 }
 
 .main {
-  width: 395px;
+  width: 543px;
   background-color: white;
-  margin: 0 10px 0 20px;
-  padding-top: 20px;
+  margin: 0 13px 0 26px;
+  padding-top: 26px;
 }
 
 .btn {
   background-color: #52b97b;
   border-radius: 5px;
   text-align: center;
-  font-size: 9px;
-  padding: 4px 3px;
+  font-size: 12px;
+  padding: 5px 4px;
   height: 20px;
-  width: 110px;
+  width: 155px;
   display: flex;
   align-items: center;
 }
@@ -71,6 +71,7 @@ ul li:before {
   color: white;
   text-transform: uppercase;
   margin: 0 auto;
+  font-weight: 600;
 }
 
 
@@ -92,19 +93,19 @@ ul li:before {
 /* icons */
 
 img.icon-java {
-  width: 70px;
-  height: 70px;
+  width: 85px;
+  height: 85px;
+  margin-left: 20px;
 }
 
 .main-icon{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 img.icon-compass {
-  width: 22px;
-  height: 18px;
+  width: 28px;
+  height: 23px;
 }
 
 /* Misc */
@@ -116,8 +117,8 @@ img.icon-compass {
 .detailed-info__row {
   background-color: white;
   margin: 2px 2px 0 2px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,8 +131,7 @@ img.icon-compass {
 }
 
 .detailed-info__row div {
-  font-size: 10px;
+  font-size: 11px;
   text-align: center;
-  color: #3c3c3c;
-
+  color: #7e7e7e;
 }
